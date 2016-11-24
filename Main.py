@@ -1,7 +1,7 @@
 import pygame
 from random import randint
 import sys
-import time
+from constants import *
 
 pygame.init ()
 
@@ -19,8 +19,10 @@ tropp_dir = 1
 
 score = 0
 
-def quit():
+def quit_game():
     pygame.quit()
+    sys.exit()
+
 
 game_start = False
     
