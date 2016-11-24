@@ -55,7 +55,6 @@ while True:
 
         speed_y += 5
         tropp_y += speed_y
-            
         
         if tropp_y == 400:
             speed_y = -5
